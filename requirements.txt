@@ -6,3 +6,5 @@ pandas
 python-dotenv
 google-generativeai
 tqdm
+
+gunicorn

@@ -18,7 +18,7 @@ gemini_model = genai.GenerativeModel("gemini-1.5-flash")
 # --- Load Data & Model ---
 print("📄 Loading data and model...")
 df = pd.read_csv("combined_therapy_dataset.csv")
-dialogues = df["dialogue"].tolist()[:2000]  # Limit to 2000 for speed
+dialogues = df["dialogue"].tolist()[:500]  
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 embeddings = embedding_model.encode(dialogues, convert_to_numpy=True)
 

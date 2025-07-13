@@ -1,0 +1,8 @@
+Flask
+sentence-transformers
+scikit-learn
+numpy
+pandas
+python-dotenv
+google-generativeai
+tqdm
